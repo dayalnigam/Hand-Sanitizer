@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wave"
+    tools:context=".MainActivity">
+ <!-- Dayal Nigam DEi(Internship project) Home made Sanitizer using IOT-->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="414dp"
+        android:layout_height="60dp"
+        android:background="#F14848"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="DASHBORAD"
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <TextView
+        android:id="@+id/text_view_date"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:background="#F9F808"
+        android:gravity="center"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/mytext5"
+        android:layout_width="176dp"
+        android:layout_height="118dp"
+        android:background="@drawable/s"
+        android:text="UNIT-1"
+        android:textColor="#020202"
+        android:textColorHint="#080808"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368" />
+
+    <TextView
+        android:id="@+id/mytext6"
+        android:layout_width="173dp"
+        android:layout_height="119dp"
+        android:background="@drawable/s2"
+        android:text="UNIT-2"
+        android:textColor="#070707"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <TextView
+        android:id="@+id/mytext7"
+        android:layout_width="177dp"
+        android:layout_height="123dp"
+        android:background="@drawable/s3_copy"
+        android:text="UNIT-3"
+        android:textColor="#0B0A0A"
+        android:textColorHint="#0C0C0C"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
